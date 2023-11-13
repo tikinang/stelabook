@@ -1,0 +1,7 @@
+{{- range $book := . }}
+# {{ $book.Title }} - {{ $book.Authors }}
+{{- range $note := $book.Notes }}
+{{ $note.CreatedFormatted }}
+> {{ $note.Content }}
+{{ end }}
+{{- end }}

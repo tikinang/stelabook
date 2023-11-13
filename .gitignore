@@ -1,2 +1,5 @@
 .idea
-stelabook_client
+stelabook-client
+stelabook-parser
+books.db*
+books.md
